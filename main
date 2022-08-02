@@ -78,7 +78,7 @@ local lookthat = findClosestPart(game.Players.LocalPlayer.Character.Torso.Positi
        local pvm = (lookthat.Position - game.Players.LocalPlayer.Character.Torso.Position).magnitude
        if pvm >= 54  then
            if pvm <=66 then
-                pv.PowerValue.Value = 85
+                pv.PowerValue.Value = 75
               cam()
        
          end
