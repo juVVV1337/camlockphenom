@@ -60,24 +60,24 @@ game.Players.LocalPlayer.Character:WaitForChild("Humanoid").Jumping:Connect(func
     if game.Players.LocalPlayer.Character.Basketball then
            local lookthat = findClosestPart(game.Players.LocalPlayer.Character.Torso.Position)
        local pvm = (lookthat.Position - game.Players.LocalPlayer.Character.Torso.Position).magnitude
-       if pvm >= 75  then
-           if pvm <=75 then
+       if pvm >= 30  then
+           if pvm <=44 then
                pv.PowerValue.Value = 75
               cam()
          end
        end
            local lookthat = findClosestPart(game.Players.LocalPlayer.Character.Torso.Position)
        local pvm = (lookthat.Position - game.Players.LocalPlayer.Character.Torso.Position).magnitude
-       if pvm >= 80  then
-           if pvm <=80 then
+       if pvm >= 45  then
+           if pvm <=53 then
                pv.PowerValue.Value = 80
               cam()
          end
        end
 local lookthat = findClosestPart(game.Players.LocalPlayer.Character.Torso.Position)
        local pvm = (lookthat.Position - game.Players.LocalPlayer.Character.Torso.Position).magnitude
-       if pvm >= 85  then
-           if pvm <=85 then
+       if pvm >= 54  then
+           if pvm <=66 then
                 pv.PowerValue.Value = 85
               cam()
        
